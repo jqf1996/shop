@@ -1,0 +1,10 @@
+logging:
+  config: logback.xml
+  level:
+    com.jang.Shop.mapper: trace
+
+
+
+spring:
+  thymeleaf:
+    cache: false #关闭缓存
